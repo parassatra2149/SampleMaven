@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Handle window on chrome",
+        "description": "",
+        "id": "window-handling-on-chrome;handle-window-on-chrome",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9932034629,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am navigated to toolsQA website",
+            "match": {
+              "location": "UIStepdefinition.I_am_navigated_to_toolsQA_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7823648434,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I handle windows on chrome",
+            "match": {
+              "location": "UIStepdefinition.I_handle_windows_on_chrome()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Window Handling on Chrome",
+    "description": "",
+    "id": "window-handling-on-chrome",
+    "keyword": "Feature",
+    "uri": "window.feature"
+  }
+]

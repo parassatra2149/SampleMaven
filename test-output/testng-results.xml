@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15045" started-at="2018-10-11T06:00:33Z" finished-at="2018-10-11T06:00:48Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.paras.Selenium_Basics.TestRunner@76b0bfab]" name="feature" class="com.paras.Selenium_Basics.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="15045" started-at="2018-10-11T06:00:33Z" finished-at="2018-10-11T06:00:48Z">
+      <class name="com.paras.Selenium_Basics.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.paras.Selenium_Basics.TestRunner@76b0bfab]" name="setUpClass" is-config="true" duration-ms="229" started-at="2018-10-11T11:30:33Z" finished-at="2018-10-11T11:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.paras.Selenium_Basics.TestRunner@76b0bfab]" name="feature" duration-ms="14707" started-at="2018-10-11T11:30:33Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-10-11T11:30:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Window Handling on Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.paras.Selenium_Basics.TestRunner@76b0bfab]" name="tearDownClass" is-config="true" duration-ms="15" started-at="2018-10-11T11:30:48Z" finished-at="2018-10-11T11:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.paras.Selenium_Basics.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
